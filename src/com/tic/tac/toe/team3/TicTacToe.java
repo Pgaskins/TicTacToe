@@ -1,3 +1,5 @@
+package com.tic.tac.toe.team3;
+
 import java.util.*;
 import javax.swing.*;
 import java.util.*;
@@ -14,8 +16,8 @@ import javax.swing.JPanel;
 import javax.swing.ImageIcon;
 public class TicTacToe extends JPanel {
 
-    Character playerMark = 'x';
-    JButton[] buttons = new JButton[9];
+   private Character playerMark = 'x';
+   private final JButton[] buttons = new JButton[9];
 
     //Ctor Set to init buttons and board with
     // 3 rows and 3 column at start
@@ -68,8 +70,8 @@ public class TicTacToe extends JPanel {
             if(playerMark == 'x') playerMark = 'O';
             else playerMark ='x';
 
-            JOptionPane pane = new JOptionPane();//The J action Pane that popup to ask if we want to play again
-            int dialogResult = JOptionPane.showConfirmDialog(pane, "Game Over. "+ playerMark + " Wins. Would you like to play again?","Game over.",
+            JOptionPane jPane = new JOptionPane();//The J action Pane that popup to ask if we want to play again
+            int dialogResult = JOptionPane.showConfirmDialog(jPane, "Game Over. "+ playerMark + " Wins. Would you like to play again?","Game over.",
                     JOptionPane.YES_NO_OPTION);
 
             if(dialogResult == JOptionPane.YES_OPTION) resetTheButtons();
@@ -112,14 +114,13 @@ public class TicTacToe extends JPanel {
 
     // checks for a winner
     public boolean checkForWinner() {
-        if(checkRows() == true || checkColumns() == true || checkDiagonals() == true) return true;
-        else return false;
+        return checkRows() || checkColumns() || checkDiagonals();
     }
 
     // checks rows for a win
     public boolean checkRows() {
         int i = 0;
-        for(int j = 0;j<3;j++) {//Checkig each row to see if there is a winner/ 012,345,678
+        for(int j = 0;j<3;j++) {//Checking each row to see if there is a winner/ 012,345,678
             if( buttons[i].getText().equals(buttons[i+1].getText()) && buttons[i].getText().equals(buttons[i+2].getText())
                     && buttons[i].getText().charAt(0) != '-') {//The key to make the game work
                 return true;
@@ -151,10 +152,8 @@ public class TicTacToe extends JPanel {
         if(buttons[0].getText().equals(buttons[4].getText()) && buttons[0].getText().equals(buttons[8].getText())
                 && buttons[0].getText().charAt(0) !='-')
             return true;
-        else if(buttons[2].getText().equals(buttons[4].getText()) && buttons[2].getText().equals(buttons[6].getText())
-                && buttons[2].getText().charAt(0) !='-') return true;
-
-        else return false;
+        else return buttons[2].getText().equals(buttons[4].getText()) && buttons[2].getText().equals(buttons[6].getText())
+                && buttons[2].getText().charAt(0) != '-';
     }
 }
 
