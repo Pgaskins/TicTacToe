@@ -11,10 +11,10 @@ public class TicTacToeCLI {
     public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
 
         JFrame window = new JFrame("EAST WEST CONNECT TLG LEARNING ");
-        //window.setIconImage();
+        window.setIconImage(new ImageIcon("resources/origin.png").getImage());
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.getContentPane().add(new TicTacToe()); // adds the data
-        window.setBounds(300,300,300,300); // area of Board 4X4
+        window.setBounds(500,500,500,500); // area of Board 4X4
         window.setVisible(true); // show the gameBoard
         window.setLocationRelativeTo(null); // center of the TV Screen
 
