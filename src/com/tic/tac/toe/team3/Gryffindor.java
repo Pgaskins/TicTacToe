@@ -6,8 +6,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Gryffindor extends JPanel implements ActionListener {
-    final int PANEL_WIDTH = 794;        //size of the panel, will ultimately make a square
-    final int PANEL_HEIGHT = 911;
+    final int PANEL_WIDTH = 500;        //size of the panel, will ultimately make a square
+    final int PANEL_HEIGHT = 800;
     Image winner;
     Image background;
     Timer timer;
@@ -19,8 +19,8 @@ public class Gryffindor extends JPanel implements ActionListener {
     Gryffindor(){
         this.setPreferredSize(new Dimension(PANEL_WIDTH, PANEL_HEIGHT));
         this.setBackground(Color.black);
-        winner = new ImageIcon("resources/harry.png").getImage();        //method-chain to make an image out of an imageicon
-        background = new ImageIcon("resources/gryffindor.PNG").getImage();
+        winner = new ImageIcon("resources/snitch.png").getImage();        //method-chain to make an image out of an imageicon
+        background = new ImageIcon("resources/DailyProphetH.png").getImage();
         timer = new Timer(10, this );     //1000 ms = 1 s
     }
 

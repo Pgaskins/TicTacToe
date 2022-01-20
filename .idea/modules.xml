@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TicTacToe21.iml" filepath="$PROJECT_DIR$/TicTacToe21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicTacToeFinal.iml" filepath="$PROJECT_DIR$/TicTacToeFinal.iml" />
     </modules>
   </component>
 </project>

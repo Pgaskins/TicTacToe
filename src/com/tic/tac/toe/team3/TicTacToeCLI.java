@@ -8,22 +8,24 @@ import java.io.File;
 import java.io.IOException;
 
 public class TicTacToeCLI {
-    public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
+    public static void main(String[] args)  {
 
-        JFrame window = new JFrame("EAST WEST CONNECT TLG LEARNING ");
-        window.setIconImage(new ImageIcon("resources/origin.png").getImage());
+
+
+        JFrame window = new JFrame("EAST WEST CONNECT TLG LEARNING ");//Provides the frame with a Title and reference(window)
+        window.setIconImage(new ImageIcon("resources/origin.png").getImage());//
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        window.getContentPane().add(new TicTacToe()); // adds the data
+        try {
+            window.getContentPane().add(new TicTacToe()); // adds the content of the TicTacTOe Class to the JFrame
+        } catch (UnsupportedAudioFileException | LineUnavailableException | IOException e) {
+            e.printStackTrace();
+        }
         window.setBounds(500,500,500,500); // area of Board 4X4
-        window.setVisible(true); // show the gameBoard
-        window.setLocationRelativeTo(null); // center of the TV Screen
+        window.setVisible(true); // shows the gameBoard
+        window.setLocationRelativeTo(null); // center of the Monitor
 
-        File song = new File("resources/harrypotter.wav");
-        AudioInputStream audioStream = AudioSystem.getAudioInputStream(song);
-        Clip clip = AudioSystem.getClip();
-        clip.open(audioStream);
-        clip.start();
-        clip.loop(Clip.LOOP_CONTINUOUSLY);
+
+
 
     }
 }

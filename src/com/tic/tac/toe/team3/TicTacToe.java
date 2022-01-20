@@ -2,9 +2,12 @@ package com.tic.tac.toe.team3;
 
 import java.awt.*;
 import java.io.File;
+import java.io.IOException;
 import java.util.*;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.LineUnavailableException;
+import javax.sound.sampled.UnsupportedAudioFileException;
 import javax.swing.*;
 import java.util.*;
 import java.awt.event.ActionEvent;
@@ -17,16 +20,19 @@ import javax.swing.JPanel;
 import javax.swing.ImageIcon;
 
 public class TicTacToe extends JPanel {
-    private String playerMark = "Gryffindor";
+    private String playerMark = "gryffindorIcon";
     private Icon gryffindorIcon = new ImageIcon("Resources/gryffindorIcon.PNG");
     private Icon slytherinIcon = new ImageIcon("Resources/slytherinIcon.PNG");
     private JButton[] buttons = new JButton[9];
+    BackgroundMusic bg = new BackgroundMusic();
+
 
     //Ctor Set to init buttons and board with
     // 3 rows and 3 column at start
-    public TicTacToe() {
-        setLayout(new GridLayout(3, 3));//This is a method from the gridlayout class to set rows
+    public TicTacToe() throws UnsupportedAudioFileException, LineUnavailableException, IOException {
+        setLayout(new GridLayout(3, 3));//This is a method from the gridlayout class to set rows and columnsSEast West
         initializeButtons();
+       bg.audioFile();
 
 
     }
@@ -35,8 +41,7 @@ public class TicTacToe extends JPanel {
     // set the text, add action listeners
     // and add them to the screen
     public void initializeButtons() {
-        Random rand = new Random(8);
-        playerMark = String.valueOf(rand.nextInt());
+
         for (int i = 0; i <= 8; i++) {
             buttons[i] = new JButton();
             buttons[i].setText("-");
@@ -57,6 +62,7 @@ public class TicTacToe extends JPanel {
             });
 
             add(buttons[i]); //adds this button to JPanel
+
         }
     }
 
@@ -95,7 +101,7 @@ public class TicTacToe extends JPanel {
 
     // method used to reset the buttons
     // so you can play again
-    private void resetTheButtons() {
+    public void resetTheButtons() {
         playerMark = "Gryffindor";
         for (int i = 0; i < 9; i++) {
 
@@ -106,7 +112,7 @@ public class TicTacToe extends JPanel {
         }
     }
 
-    // checks for draw
+    // Check Methods
 
     public boolean checkDraw() {
         boolean full = true;

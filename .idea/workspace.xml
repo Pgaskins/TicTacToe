@@ -1,31 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c884052-500d-486a-b6c9-5cc8adacf435" name="Changes" comment="&quot;TicTacToe Team3&quot;">
+    <list default="true" id="288d30cc-0808-4f4f-8d08-ee56363235d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TicTacToeFinal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TicTacToeFinal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMLTEAM3FINAL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TicTacToe21/com/tic/tac/toe/team3/BackgroundMusic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TicTacToeFinal/com/tic/tac/toe/team3/BackgroundMusic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TicTacToeFinal/com/tic/tac/toe/team3/Gryffindor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TicTacToeFinal/com/tic/tac/toe/team3/Slytherin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TicTacToeFinal/com/tic/tac/toe/team3/TicTacToe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TicTacToeFinal/com/tic/tac/toe/team3/TicTacToeCLI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/TicTacToeFinal/com/tic/tac/toe/team3/Window.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/TicTacToe21/com/tic/tac/toe/team3/GryffindorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/TicTacToe21/com/tic/tac/toe/team3/SlytherinTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/TicTacToe21/com/tic/tac/toe/team3/TicTacToeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/TicTacToe21/com/tic/tac/toe/team3/WindowTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/TicTacToeFinal/com/tic/tac/toe/team3/GryffindorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/TicTacToeFinal/com/tic/tac/toe/team3/SlytherinTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/TicTacToeFinal/com/tic/tac/toe/team3/TicTacToeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/TicTacToeFinal/com/tic/tac/toe/team3/WindowTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/DailyProphetD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/DailyProphetH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/snitch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tic/tac/toe/team3/BackgroundMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/tic/tac/toe/team3/GryffindorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/tic/tac/toe/team3/SlytherinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/tic/tac/toe/team3/TicTacToeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/tic/tac/toe/team3/WindowTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe21.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe21.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe21/com/tic/tac/toe/team3/Gryffindor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe21/com/tic/tac/toe/team3/Gryffindor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe21/com/tic/tac/toe/team3/Slytherin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe21/com/tic/tac/toe/team3/Slytherin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe21/com/tic/tac/toe/team3/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe21/com/tic/tac/toe/team3/TicTacToe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe21/com/tic/tac/toe/team3/TicTacToeCLI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe21/com/tic/tac/toe/team3/TicTacToeCLI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tic/tac/toe/team3/Gryffindor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tic/tac/toe/team3/Gryffindor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tic/tac/toe/team3/Slytherin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tic/tac/toe/team3/Slytherin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tic/tac/toe/team3/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tic/tac/toe/team3/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tic/tac/toe/team3/TicTacToeCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tic/tac/toe/team3/TicTacToeCLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tic/tac/toe/team3/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tic/tac/toe/team3/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectId" id="23yomiXlnAuitXEFGTY2G2AoBot" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -33,10 +71,10 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TicTacToeCLI">
     <configuration name="TicTacToeCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tic.tac.toe.team3.TicTacToeCLI" />
-      <module name="TicTacToe21" />
+      <module name="TicTacToeFinal" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tic.tac.toe.team3.*" />
@@ -47,30 +85,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GryffindorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicTacToeFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tic.tac.toe.team3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tic.tac.toe.team3" />
+      <option name="MAIN_CLASS_NAME" value="com.tic.tac.toe.team3.GryffindorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TicTacToeCLI" />
+        <item itemvalue="JUnit.GryffindorTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7c884052-500d-486a-b6c9-5cc8adacf435" name="Changes" comment="" />
-      <created>1642627388348</created>
+      <changelist id="288d30cc-0808-4f4f-8d08-ee56363235d9" name="Changes" comment="" />
+      <created>1642715853158</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1642627388348</updated>
-      <workItem from="1642627390215" duration="9061000" />
+      <updated>1642715853158</updated>
+      <workItem from="1642715855541" duration="1484000" />
     </task>
-    <task id="LOCAL-00001" summary="&quot;TicTacToe Team3&quot;">
-      <created>1642634996306</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1642634996306</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,9 +132,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;TicTacToe Team3&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;TicTacToe Team3&quot;" />
   </component>
 </project>
